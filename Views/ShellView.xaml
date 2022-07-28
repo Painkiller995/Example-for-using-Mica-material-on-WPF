@@ -1,0 +1,78 @@
+﻿<Window x:Class="WPFwithMica.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFwithMica.Views"
+        xmlns:cal="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro.Platform"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ui:WindowHelper.UseModernWindowStyle="True"     
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Foreground="{DynamicResource SystemControlPageTextBaseHighBrush}"
+        Title="WPFwithMica" 
+        WindowStartupLocation="CenterScreen"
+        SizeToContent="WidthAndHeight"
+        ContentRendered="Window_OnContentRendered"
+        >
+
+    <Grid Margin="0 25 0 0">
+
+        <!-- Main Grid Def-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+            <!--  Column 0 -->
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <!--  Column 1 -->
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <!--  Column 2 -->
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <!--  Column 3 -->
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <!--  Column 4 -->
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <!--  Column 5 -->
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <!--  Column 6 -->
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <!--  Column 7 -->
+            <ColumnDefinition Width="20"></ColumnDefinition>
+            <!--  Column 8 -->
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" ></RowDefinition>
+            <!--  Row 0 -->
+            <RowDefinition Height="auto" ></RowDefinition>
+            <!--  Row 1 -->
+            <RowDefinition Height="auto" ></RowDefinition>
+            <!--  Row 2 -->
+            <RowDefinition Height="auto" ></RowDefinition>
+            <!--  Row 3 -->
+            <RowDefinition Height="2*" ></RowDefinition>
+            <!--  Row 4 -->
+            <RowDefinition Height="auto" ></RowDefinition>
+            <!--  Row 5 -->
+            <RowDefinition Height="auto" ></RowDefinition>
+            <!--  Row 6 -->
+            <RowDefinition Height="*" ></RowDefinition>
+            <!--  Row 7 -->
+            <RowDefinition Height="auto" ></RowDefinition>
+            <!--  Row 8 -->
+            <RowDefinition Height="auto" ></RowDefinition>
+            <!--  Row 9 -->
+            <RowDefinition Height="auto" ></RowDefinition>
+            <!--  Row 10 -->
+            <RowDefinition Height="auto" ></RowDefinition>
+            <!--  Row 11 -->
+            <RowDefinition Height="auto" ></RowDefinition>
+            <!--  Row 12 -->
+            <RowDefinition Height="20" ></RowDefinition>
+            <!--  Row 13 -->
+        </Grid.RowDefinitions>
+        <!-- Main Grid Def-->
+
+        <Button x:Name="CloseApp" Grid.Column="7" Grid.Row="11" MinWidth="100" MinHeight="50" >Close</Button>
+
+    </Grid>
+    
+</Window>
