@@ -1,4 +1,4 @@
-# Example-for-using-Mica-material-on-WPF
+# Example for using Mica material on WPF
  
  
 Buy me a coffee:
