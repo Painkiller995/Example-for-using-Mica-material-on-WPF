@@ -1,9 +1,12 @@
 # Example for using Mica material on WPF
 
-Auto detect windows 11 and activate Mica material 
-White/Dark mode on windows 10 
-MVVM using caliburn micro 
-ModernWPF UI Library
+✅ Auto detect windows 11 and activate Mica material 
+
+✅ White/Dark mode on windows 10 
+
+✅ MVVM using caliburn micro 
+
+✅ ModernWPF UI Library
 
 Follow me:
 https://twitter.com/fahddaher
