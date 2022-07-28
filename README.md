@@ -8,7 +8,7 @@
 
 ✅ ModernWPF UI Library
 
-I followed Difegue's instructions. You can find it ![here](https://github.com/Difegue/Mica-WPF-Sample).
+I followed Difegue's instructions. You can find it [here](https://github.com/Difegue/Mica-WPF-Sample).
 
 
 Follow me:
